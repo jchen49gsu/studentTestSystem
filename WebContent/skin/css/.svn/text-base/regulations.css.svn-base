@@ -1,0 +1,51 @@
+.serchResult{ margin: 20px 0 0 0;}
+.serchResult tr.odd td { background: #f6f6f6; }
+.serchResult tr.even td { background: #fff; }
+.serchResult tr, td { padding: 0; margin: 0; border-spacing: 0; border-collapse: collapse; border-color: #dcdcdc; }
+.serchResult table{ width: 100%;}
+.serchResult table thead th{ height: 24px; background: #ebebeb;}
+.serchResult table td{ height: 34px; padding:0 0 0 10px; line-height: 34px;}
+.serchResult table thead th{ border-right:1px solid #bcbcbc; border-left:1px solid #fdfdfd;}
+.serchResult table thead .checkBox{ border-left:0 none;}
+.serchResult table thead .regulationAction{ border-right: 0 none;}
+.serchResult .checkBox{ width: 5%;}
+.serchResult .number{ width: 7%;}
+.serchResult .regulationCode{ width: 10%;}
+.serchResult .regulationCatory{ width: 10%;}
+.serchResult .regulationAction{ width: 25%;}
+.result .resultTitle{ font-size: 14px; font-weight: 700;}
+.result span{ color: #4e7fe1;}
+.result{ color: #888; line-height: 24px;}
+.serchResult .icn-24{ width: 50px; padding: 0 0 0 30px; line-height: 24px; cursor: pointer;}
+.serchResult tr.even .icn-edit{ background: url(../images/edit.png) no-repeat;}
+.serchResult tr.odd .icn-edit{ background: url(../images/colorEdit.png) no-repeat;}
+.serchResult tr.even .icn-delete{ background: url(../images/delete.png) no-repeat;}
+.serchResult tr.odd .icn-delete{ background: url(../images/deleteColor.png) no-repeat;}
+.serchResult a{ color: #555;}
+.serchResult a:hover{ color: #4e7fe1;}
+.serchResult .icn-delete a:hover{ color:#d00;}
+.serchButton{ text-align: center; margin: 10px 0 0 0;}
+.serchArea{ border:2px solid #dcdcdc;width: 100%;}
+.serchArea .serchItem{ padding: 10px; }
+.serchItem .box1{}
+.serchItem input{ border:1px solid #ddd; padding: 0 0 0 10px; height: 28px;}
+.serchItem .box{float: left; margin: 0 40px 0 0;}
+.serchItem .box .regulationName{ width: 200px;}
+.serchItem .box select{ background: #fff; height: 28px; border:1px solid #ddd; width: 100px;}
+.resultTableTitle{ height: 38px; background: #d4dff9; line-height: 36px; padding: 0 0 0 10px;}
+.resultTableTitle input{ height: 26px; padding: 0 10px; cursor: pointer;}
+.pagerNumber{ margin: 8px 10px 8px 20px;}
+.totalPager{padding: 0 10px;}
+.pagerNumber a{ display: block; float: left; width: 20px; height: 20px; border:1px solid #ddd; background: #fff; line-height: 20px;  text-align: center; margin: 0 1px;}
+.pagerNumber a:hover{ color: #4e7fe1;}
+.pagerNumber .ignore:hover{ background: #fff; color:#555;}
+.pagerNumber a.selected{ background: #4e7fe1; color: #fff;}
+.pagerNumber .pre,.pagerNumber .next{ font-family: SimSun;}
+.pagerNumber a.disable{ background:#eee; color: #ccc; }
+.btmPager .totalPager{ padding: 11px 10px;}
+
+
+
+
+
+

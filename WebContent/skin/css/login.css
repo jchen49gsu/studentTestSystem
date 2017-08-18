@@ -1,0 +1,23 @@
+body{ background: url(../images/wenli.png) #4e7fe1 repeat; padding: 0; margin: 0; font-family: MicrosoftYaHei;}
+input,img,a,p,hq,h2,h3,h4,h5,h6,select{ margin: 0; padding: 0;}
+.icn-20{ display: inline-block; width: 20px; height: 20px; }
+.icnUser{ background: url(../images/usericn.png) center center no-repeat; position: absolute; top:10px; left: 13px;}
+.icnpwd{ background: url(../images/userkey.png) center center no-repeat;position: absolute; top:10px; left: 13px;}
+.logoWord{ background:url(../images/logoword.png) center 30px no-repeat; position: absolute; top:0;left: 0;right: 0;bottom: 0;}
+.map{ background: url(../images/map.png) center center no-repeat; position: absolute; top: 0;left: 0;right: 0;bottom: 0;}
+.plane{ background: url(../images/plane.png) 100px 400px no-repeat; position: absolute; top: 0;left: 0;right: 0;bottom: 0;}
+.logform{width: 380px; height: 350px; background:url(../images/logform.png ) no-repeat; position: absolute;top: 30%; left: 40%;}
+.loginArea{ padding: 10px;}
+.logform .title{line-height: 20px; padding: 10px; height: 20px; background: #f4f4f4; border-bottom:1px solid #eaeaea;font-weight:700; }
+.inputArea{ padding: 15px 30px;}
+.logform .inputArea input{ height:31px; width: 258px; border:1px solid #c7c9cb; padding: 0 0 0 30px; outline: 0 none;line-height:31px;font-size:12px;}
+.logform .inputArea input.focus{ border: 1px solid #83a6ea;}
+.logform .inputArea icn{ z-index: 10;}
+.logform .inputArea .inputbg{ position: relative; padding: 5px; height:33px; width: 290px; background: #f2f5f7; margin: 0 0 15px 0; }
+.logform .inputArea .pwd{ margin: 0;}
+.logform .inputbg.error{ background: #fff2f4;}
+.logform .inputbg.error input{ border: 1px solid #f9a8b2;}
+.loginButton{ text-align: center;}
+.loginButton .login{ height: 34px; width: 300px; background: #4e7fe1; color: #fff; font-size: 14px; font-weight: 700; border: 1px solid #4672ca; cursor: pointer;;}
+.loginButton .login:hover{ background: #4672ca; border: 1px solid #3e66b5;}
+.alert{ height:20px;padding: 5px;text-align: center; color:#e60000;border-radius:0;border:0;font-size: 14px;}

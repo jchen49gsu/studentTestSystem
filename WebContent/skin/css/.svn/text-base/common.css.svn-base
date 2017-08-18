@@ -1,0 +1,306 @@
+body { font-family: 'Microsoft YaHei'; font-size: 12px; color: #444; margin: 0; padding: 0; border: 0 none; }
+ul, li, h1, h2, h3, h4, h5, p, a, img,input,select,textarea,table{ padding: 0; margin: 0; border: 0 none;  outline: 0 none;}
+h1 { font-weight: normal; font-size: 14px; }
+a, a:hover, a *, a:hover * { text-decoration: none; cursor: pointer; border: 0 none; }
+li { list-style-type: none; }
+.lfloat { float: left; }
+.rfloat { float: right; }
+.clear { clear: both; }
+i { font-style: normal; }
+html { overflow: auto; }
+.findOut,.reset{ width: 80px;height: 30px;color: #fff; padding: 0; cursor: pointer;}
+.serchItem .findOut,.serchItem .reset{ border:0 none; padding: 0;}
+.reset{ background: #00c257; }
+.findOut{ background: #4e7fe1; margin: 0 10px 0 0; }
+.submit{ width: 80px; height: 28px; background: #4e7fe1; border:1px solid #4672ca; color: #fff; font-weight: 700; padding: 0; margin: 0 10px 0 0; height: 30px;}
+.cancel{ width: 80px; height: 28px; background: #006633; border:1px solid#006633; color: #fff; font-weight: 700; padding: 0; height: 30px;}
+.submitButton{ text-align: center}
+.submitButton input { cursor:pointer; }
+.serchButton input{ border: 0 none;}
+.serchButton{ text-align: center;}
+input,select{ height: 28px; border: 1px solid #ddd; padding: 0 10px; font-size: 12px;}
+.title .label{ background: url(../images/labelBlue.png) no-repeat; height: 28px;text-align: left; padding: 0 0 0 15px; font-size: 14px; font-weight: 700; color: #fff; line-height: 22px; display: block;}
+.Red .title .label,.topLeftRed.topRightWhite .title .label{ background: url(../images/labelRed.png) no-repeat;}
+.Green .title .label,.topLeftGreen.topRightWhite .title .label{ background: url(../images/labelGreen.png) no-repeat;}
+.purple .title .label,.topLeftPurple.topRightWhite .title .label{ background: url(../images/labelPurple.png) no-repeat;}
+.Black .title .label,.topLeftBlack.topRightWhite  .title .lable{ background: url(../images/labelBlack.png) no-repeat;}
+.Orange .title .label,.topLeftOrange.topRightWhite .title  .label{ background: url(../images/labelOrange.png) no-repeat;}
+.Blue .title .label,.topLeftBlue.topRightWhite .title .label{ background: url(../images/labelBlue.png) no-repeat;}
+body { background: #3a4050; position: relative; min-width: 1200px; }
+
+.alert .alertTitle{ background:#fafafa; height: 40px; padding: 0 0 0 10px; }
+.icn.icn-close{ background: url(../images/close.png) 14px 14px no-repeat; padding: 14px; float: right; cursor: pointer; }
+.icn.icn-close:hover{ background: url(../images/closehover.png) 14px 14px  no-repeat;}
+.alert .alertTitle .name{ font-size: 14px; font-weight: 700; line-height: 40px;}
+.alert .alertContent{ background: #fff; padding:15px 20px;}
+.alert .alertContent .infomation{ height: 100%; border-bottom: 1px solid #dcdcdc; line-height: 26px; font-weight: 700;}
+.alert .alertContent .infomation .label{ color: #888; padding: 0 10px 0 0;}
+.alert .alertContent .infomation .label span{ color: #555;}
+.alert .alertContent .jsList{ margin: 20px 0 0 0;}
+.alert .alertContent .jsList input{ height: auto;}
+.alert .alertContent .jsList .box{ display: inline-block; margin: 0 0 0 20px;}
+.alert .alertContent .jsList .box .label{ padding: 0 0 0 10px;}
+.alert .alertContent .jsList .box.nomargin{ margin: 0;}
+.alert .alertButton{ height: 40px; background: #fff; border-top:1px solid #dcdcdc; line-height: 40px; text-align: right; padding: 0 20px 0 0;}
+.alert .alertButton  input{ width: 60px; margin: 0 7px 0 0; cursor: pointer; border-radius: 3px;}
+.icn { display: inline-block; background: url(../images/background.png) 0 0 no-repeat; }
+.icn-10{ width: 10px; height: 10px;}
+.icn-12{ width: 12px; height: 12px;}
+.icn-16 { width: 16px; height: 16px; }
+.icn-20{ width: 20px;height: 20px;}
+.icn-24 { width: 24px; height: 24px; }
+.icn-26 { width: 26px; height: 26px; }
+.icn-account-down { background-position: -135px -120px; }
+.icn-menu-hscd { background-position: -115px -120px; }
+.icn-menuMore { background-position: -145px -120px; }
+.icn-menu-min { background-position: -80px -55px; }
+.icn-screen-max { background-position: -40px -97px;}
+.icn-style-color { background-position: -100px -76px; }
+.icn-setting-dashboard { background-position: -40px -76px; }
+.icn-account-info { background-position: -120px -143px; }
+.icn-account-keyl { background-position: -120px -163px; }
+.icn-account-exit { background-position: -140px -143px; }
+.icn-menu-home { background-position: 0 0; }
+.icn-menu-jcwj { background-position: -26px 0; }
+.icn-menu-jjgc { background-position: -52px 0; }
+.icn-menu-tjfx { background-position: -78px 0; }
+.icn-menu-xtgl { background-position: -104px 0; }
+.icn-account-triangle { border-style: dashed dashed solid; border-color: transparent; border-bottom-color: white; display: inline-block; font-size: 0; height: 0; line-height: 0; width: 0; border-width: 0 6px 6px; padding-top: 1px; left: 18px; position: absolute; top: -7px; }
+
+
+
+.header { height: 50px; background: #5075e1; position: relative; z-index: 9; }
+.header .logo { width: 200px; height: 100%; float: left; position: relative; }
+.header .logo a { display: block; white-space: nowrap; position: absolute; height: 100%; padding-right: 15px; font-size: 14px; line-height: 50px; left: 0; right: 0; top: 0; bottom: 0; background: url(../images/logo.png) 15px 9px no-repeat; color: white; _width: 185px; text-align: right; }
+.header .nav { float: left; box-shadow: -2px -3px 1px rgba(0,0,0,0.05); height: 50px; }
+.header .nav .navLi { position: relative; width: 60px; float: left; height: 50px; border-right: 1px solid #426bbc; }
+.header .nav .subMenu { display: block; }
+.header .nav .navLink { display: block; width: 60px; height: 50px; cursor: pointer; }
+.header .nav .navLink .icn { margin: 13px 0 0 19px; }
+.header .nav .navLink:hover { background-color: #405fb7; }
+.header .nav .lastNavLink { border: 0 none; }
+.header .nav li .subMenu { position: absolute; top: 100%; left: 0; border: 1px solid #ddd; border-top: 0 none; }
+.header .nav li .subMenu h2 { background-color: #f6f6f6; height: 39px; border-bottom: 1px solid #ededed; line-height: 39px; padding-left: 10px; color: #777; font-size: 12px; font-weight: 700; }
+.header .nav li .subMenu .icn-account-triangle { border-bottom-color: #f6f6f6; left: 25px; }
+.header .nav li .subMenu .box { background: #f9f9f9; }
+
+.header .nav li .subMenu-color { width: 330px; }
+.header .nav li .subMenu-color .box { width: 100%; height: 270px; padding: 5px 0; }
+.header .nav li .subMenu-color .box ul { width: 110px; float: left; }
+.header .nav li .subMenu-color .box ul li { float: left; padding: 11px 0 0 15px; }
+.header .nav li .subMenu-color .box ul a { display: block; border: 1px solid #f4f4f4; clear: both; width: 80px; height: 30px; }
+.header .nav li .subMenu-color .box ul a img { width: 80px; height: 30px; float: left; }
+
+.header .nav li .subMenu-setting { width: 260px; }
+.header .nav li .subMenu-setting .box { background: white; width: 100%; }
+.header .nav li .subMenu-setting .block { border-bottom: 1px solid #eee; padding: 10px; height: 55px; background: white; }
+.header .nav li .subMenu-setting .lastBlock { border-bottom: 0 none; height: 85px; }
+.header .nav li .subMenu-setting .block .caption { color: #777; font-size: 12px; }
+.header .nav li .subMenu-setting .block .caption .grid { }
+.header .nav li .subMenu-setting .block label { clear: both; height: 24px; padding-left: 28px; position: relative; display: block; margin: 8px 0 0; line-height: 20px; }
+.header .nav li .subMenu-setting .block label.lfloat { clear: none; width: 90px; }
+.header .nav li .subMenu-setting .block label .icn { float: left; position: absolute; left: 0; top: 0; }
+.header .nav li .subMenu-setting .noBorder { border: 0 none; }
+
+.header .loginPannel { float: right; position: relative; height: 50px; }
+.header .loginPannel .account { height: 50px; width: 180px; overflow: hidden; }
+.header .loginPannel .account .accountLink:hover { background-color: #405fb7; }
+.header .loginPannel .account .accountLink { display: block; position: relative; padding-left: 32px; height: 28px; padding: 11px 0 11px 48px; width: 132px; }
+.header .loginPannel .account .accountLink .avatar { display: block; position: absolute; width: 24px; height: 24px; padding: 2px; background: white; left: 10px; top: 11px; }
+.header .loginPannel .account .accountLink .avatar img { width: 24px; height: 24px; }
+.header .loginPannel .account .accountLink .userName { color: white; display: block; float: left; line-height: 30px; width: 105px; position: relative; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.header .loginPannel .account .accountLink .icn-account-down { margin: 14px 0 0; float: left; overflow: hidden; }
+.header .loginPannel .account .subMenu { position: absolute; top: 100%; background: white; border-left: 1px solid #eee; border-right: 0 none; border-top: 0 none; right: 0; width: 179px; }
+.header .loginPannel .account:hover .subMenu { display: block; }
+.header .loginPannel .account .subMenu a { display: block; height: 40px; padding-left: 5px; padding: 0; width: auto; line-height: 40px; border-bottom: 1px solid #eee; color: #888; }
+.header .loginPannel .account .subMenu a:hover { background-color: #f7f7f7; }
+.header .loginPannel .account .subMenu a .icn { float: left; margin: 10px 8px 0 8px; }
+
+.radioBox { background-position: -100px -98px; }
+.radioBoxSelected { background-position: -121px -98px; }
+.checkBox { background-position: -60px -98px; }
+.checkBoxSelected { background-position: -80px -98px; }
+
+.serchResult tbody .operation a{ display: inline-block; margin: 0 25px 0 0;}
+.serchResult tbody .operation .icn-20 { float: left; margin: 9px 0 0 0;}
+.serchResult tbody .operation a span{ display: inline-block;}
+.icn-edit{ background-position: -60px -143px;}
+.icn-delete{background-position: -40px -143px;}
+.icn-colone{background-position: 0 -143px;}
+.icn-download{background-position: -80px -143px;}
+.icn-qxsetting{background-position: -100px -143px;}
+.icn-settingJS{background-position: -20px -143px;}
+.serResult a:hover .icn-20:{ background-position-y: -163px; }
+.resultTableTitle .chooseSelect{ margin: 0 0 0 10px;display: inline-block;}
+.resultTableTitle .chooseSelect select{ margin: 0 0 0 10px;}
+
+
+.container { position: absolute; width: 100%; _height: expression((document.documentElement.clientHeight||document.body.clientHeight)-50); top: 50px; bottom: 0; left: 0; right: 0; }
+.container .menu { z-index: 8; position: absolute; left: 0; top: 0; width: 200px; background: #3a4050; }
+.container .menu .menuLi { float: left; width: 100%; }
+
+.container .hasChildren { position: relative; }
+
+.container .menu .menuLi .menuLink { white-space: nowrap; float: left; width: 100%; display: block; height: 45px; position: relative; color: #90939c; font-size: 14px; border-bottom: 1px solid #2c303c; }
+.container .menu .menuLi .menuLink span { display: inline-block; margin: 12px 0 0; float: left; }
+.container .menu .selected .menuLink { background: #282c37; color: #5075e1; border-bottom: 1px solid #282c37; }
+.container .menu .menuLi .menuLink:hover { color: #5075e1; }
+.container .menu .selected .icn-menuLink{ background-position-y:-28px;}
+
+.container .menu .menuLi.selected .icn-menuMore { background-position-x: -135px; margin: 20px 10px 0; }
+.container .menu .menuLi .icn-menuLink { float: left; margin: 9px 7px 0; }
+.container .menu .menuLi .icn-menuMore { float: right; margin: 15px 10px 0; display: none; overflow: hidden; }
+.container .menu .menuLi.hasChildren .icn-menuMore { display: block; }
+.container .menu .menuLi.selected .subMenu { display: block; }
+
+.leftMenu .scrollBar { width: 300px; height: 100%; overflow-y: auto; }
+.leftMenu .scrollBar .menuUl { width: 200px; }
+.leftMenu .subMenu { width: 100%; clear: both; }
+.leftMenu .subMenu li { height: 32px; background: #282c37; }
+.leftMenu .subMenu li a { display: block; position: relative; height: 32px; line-height: 32px; padding-left: 15px; color: #86878b; font-size: 12px; }
+.leftMenu .subMenu li.selected a { background: #1b1e26; color: #f1f1f1; }
+.leftMenu .subMenu li:hover a { color: #ccc; }
+.leftMenu .subMenu li.selected a .icn-menu-hscd { background-position-x: -125px; }
+.leftMenu .subMenu li.selected a .triangle { content: " "; border-style: dashed solid dashed; border-color: transparent; border-right-color: #eaeaea; display: inline-block; font-size: 0; height: 0; line-height: 0; width: 0; border-width: 6px 6px 6px 0; padding-left: 1px; right: 0; position: absolute; top: 10px; }
+.leftMenu .subMenu li .icn { float: left; margin: 11px 5px 0; overflow: hidden; }
+
+.frame { position: absolute; left: 200px; top: 0; right: 0; }
+.brad { height: 36px; border-bottom: 1px solid #f1f1f1; color: #888; padding: 0 0 0 15px; line-height: 35px; }
+.brad a { color: #888; }
+.brad a.now { color: #444; }
+.brad a:hover { color: #4e7fe1; }
+.contentContainer .content { background: #fff; }
+.frame .contentContainer { background: #eaeaea; }
+.frame .contentContainer { _height: expression(frameDiv.clientHeight); padding: 10px; }
+.frame .contentContainer .content .projectContent { padding: 15px 20px 20px; }
+
+/*左侧导航收起 */
+.miniLeftMenu .header .logo { width: 60px; overflow: hidden; color: transparent; }
+.miniLeftMenu .header .logo a { background-position-x: 5px; width: 55px; overflow: hidden; padding: 0; }
+.miniLeftMenu .header .logo a span { display: none; }
+.miniLeftMenu .container .menu { width: 60px; }
+.miniLeftMenu .container .menu .menuLi { position: relative; }
+.miniLeftMenu .container .menu .menuLi .menuLink span { display: none; margin: 0; line-height: 21px; height: 21px; padding: 12px 0; position: absolute; left: 100%; width: 160px; background: gray; text-indent: 20px; background: #282c37; }
+.miniLeftMenu .container .menu .selected .menuLink span { display: block; }
+.miniLeftMenu .container .menu .menuLi .menuLink .icn-menuMore { display: none; }
+.miniLeftMenu .container .menu .menuLi .subMenu { position: absolute; left: 100%; top: 45px; width: 160px; }
+.miniLeftMenu .container .menu .hovered .menuLink { background: #282c37; color: #4e7fe1; border-bottom: 1px solid #282c37; }
+.miniLeftMenu .container .menu .icn-menuLink { margin:9px 0 0 17px;}
+.miniLeftMenu .container .menu .hovered .icn-menuLink { background-position-y: -28px; }
+.miniLeftMenu .container .menu .hovered .menuLink span { display: block; }
+.miniLeftMenu .container .menu .hovered .subMenu { display: block; }
+.miniLeftMenu .leftMenu .subMenu { position: absolute; left: 100%; top: 45px; }
+.miniLeftMenu .icn-menu-min { background-position: -100px -55px; }
+.miniLeftMenu .leftMenu .subMenu li.selected a .triangle { display: none; }
+.miniLeftMenu .frame { left: 60px; }
+
+/*水平导航logo收起*/
+.miniLateralMenu .header .logo { width: 60px; overflow: hidden; color: transparent; }
+.miniLateralMenu .header .logo a { display: block; background-position-x: 5px; height: 50px; width: 55px; overflow: hidden; padding: 0; }
+.miniLateralMenu .header .logo a span { display: none; }
+.miniLateralMenu .container .menu { width: 60px; }
+.miniLateralMenu .container .menu .menuLi { position: relative; }
+.miniLateralMenu .container .menu .hovered .menuLink span { display: block; position: absolute; left: 100%; width: 160px; background: gray; text-indent: 20px; background: #282c37; }
+.miniLateralMenu .container .menu .menuLi.hasChildren .icn-menuLink { display: none; }
+.miniLateralMenu .leftMenu .subMenu li.selected a:after { display: none; }
+.miniLateralMenu .icn-menu-min { background-position: -100px -55px; }
+
+/*水平导航*/
+.lateralMenu .container .leftMenu { right: 0; bottom: auto; height: 75px; width: auto; }
+.lateralMenu .container .leftMenu .menuUl { margin: 0 auto; width: 1000px; }
+.lateralMenu .container .leftMenu .menuLi { display: inline-block; width: 190px; border-bottom: 0 none; }
+.lateralMenu .container .menu .menuLi .subMenu { display: block; position: absolute; top: 100%; left: 0; }
+.lateralMenu .container .menu .menuLi .menuLink { height: 74px; text-align: center; line-height: 1.5em; border: 0 none; }
+.lateralMenu .container .menu .menuLi .menuLink .icn-menuLink { float: none; display: block; margin: 13px auto 0; }
+.lateralMenu .container .menu .menuLi.hovered .menuLink span { position: relative; left: 0; width: 100%; text-indent: 0; }
+.lateralMenu .container .menu .menuLi .menuLink span { width: 100%; display: block; clear: both; line-height: 1.5em; text-align: center; margin: 0; }
+.lateralMenu .container .menu .hovered .menuLink { background: #282c37; color: #4e7fe1; border-bottom: 0 none; }
+.lateralMenu .container .menu .hovered .icn-menuLink { background-position-y: -28px; }
+.lateralMenu .container .menu .hovered .menuLink span { display: block; }
+.lateralMenu .container .menu .hovered .subMenu { display: block; left: 0; position: absolute; top: 100%; }
+.lateralMenu .container .menu .subMenu li.selected a .triangle { display: none; }
+.lateralMenu .container .menu .menuLink .icn-menuMore { display: none; }
+.lateralMenu .frame { left: 0; top: 75px; }
+.lateralMenu .contentContainer .content { background: #fff; margin: 15px 0; }
+
+/*右边顶部白色样式*/
+.topRightWhite .header { background-color: #fff; }
+.topRightWhite .header .nav .navLi { border-right: 1px solid #f7f7f7; }
+.topRightWhite .header .nav .navLink:hover { background-color: #fff; }
+.topRightWhite .header .loginPannel .account .accountLink:hover { background-color: #f1f1f1; }
+.topRightWhite .header .loginPannel .account .accountLink .userName { color: #777; }
+
+/*左边顶部色彩样式*/
+.topLeftBlack .header .logo { background: #202936; }
+.topLeftBlue .header .logo { background: #5075e1; }
+.topLeftGreen .header .logo { background: #81ca80; }
+.topLeftPurple .header .logo { background: #7366bd; }
+.topLeftOrange .header .logo { background: #e8c842; }
+.topLeftRed .header .logo { background: #e86562; }
+
+
+/*左侧菜单白色样式*/
+.menuWhite { background-color: #fff; }
+.menuWhite .container .menu { background: #fff; }
+.menuWhite .container .menu .menuLink:hover { background: white; }
+.menuWhite .container .menu .menuLink:hover span { color: #5075e1; }
+.menuWhite .container .menu .menuLink:hover .menuWhite .container .menu .selected .menuLink { background: #282c37; color: #5075e1; border-bottom: 1px solid #282c37; }
+.menuWhite .container .menu .menuLi .menuLink:hover { color: #5075e1; }
+.menuWhite .container .menu .menuUl .selected .menuLink { background: #f6f6f6; border-bottom: 1px solid #f6f6f6; }
+.menuWhite .leftMenu .subMenu li { background: #dee0e6; }
+.menuWhite .container .menu .menuLi .menuLink { background: #fff; border-bottom: 1px solid #fff; }
+.menuWhite .leftMenu .subMenu li.selected a { color: #5075e1; }
+.menuWhite .leftMenu .subMenu li a { background: #f6f6f6; display: block; position: relative; height: 32px; line-height: 32px; padding-left: 15px; color: #777; font-size: 12px; }
+.menuWhite .leftMenu .subMenu li a:hover { color: #555; }
+.menuWhite .leftMenu .subMenu li.selected a .triangle { display: none; }
+.menuWhite .miniLeftMenu .container .menu .selected .menuLink span { display: block; background: #f6f6f6; }
+.menuWhite .miniLeftMenu .container .menu .selected .subMenu { display: block; }
+
+/* 右边顶部黑色样式*/
+.Black .header { background-color: #202936; }
+.Black .header .nav .navLi { border-right: 1px solid #121821; }
+.Black .header .nav .navLink:hover { background-color: #161e29; }
+.Black .header .loginPannel .account .accountLink:hover { background-color: #161e29; }
+.Black .header .loginPannel .account .accountLink .userName { color: #fff; }
+
+/* 右边顶部蓝色样式*/
+.Blue .header { background-color: #5075e1; }
+.Blue .header .nav .navLi { border-right: 1px solid #476BD8; }
+.Blue .header .nav .navLink:hover { background-color: #405fb7; }
+.Blue .header .loginPannel .account .accountLink:hover { background-color: #405fb7; }
+.Blue .header .loginPannel .account .accountLink .userName { color: #fff; }
+
+/* 右边顶部绿色样式*/
+.Green .header { background-color: #81ca80; }
+.Green .header .nav .navLi { border-right: 1px solid #65a24f; }
+.Green .header .nav .navLink:hover { background-color: #51ab53; }
+.Green .header .loginPannel .account .accountLink:hover { background-color: #51ab53; }
+.Green .header .loginPannel .account .accountLink .userName { color: #fff; }
+
+/* 右边顶部紫色样式*/
+.Purple .header { background-color: #7366bd; }
+.Purple .header .nav .navLi { border-right: 1px solid #5D5FAE; }
+.Purple .header .nav .navLink:hover { background-color: #5557a0; }
+.Purple .header .loginPannel .account .accountLink:hover { background-color: #5557a0; }
+.Purple .header .loginPannel .account .accountLink .userName { color: #fff; }
+
+/* 右边顶部橙色样式*/
+.Orange .header { background-color: #e8c842; }
+.Orange .header .nav .navLi { border-right: 1px solid #D7B745; }
+.Orange .header .nav .navLink:hover { background-color: #d6a232; }
+.Orange .header .loginPannel .account .accountLink:hover { background-color: #d6a232; }
+.Orange .header .loginPannel .account .accountLink .userName { color: #fff; }
+
+/* 右边顶部红色样式*/
+.Red .header { background-color: #E86562; }
+.Red .header .nav .navLi { border-right: 1px solid #D34F4C; }
+.Red .header .nav .navLink:hover { background-color: #DB4341; }
+.Red .header .loginPannel .account .accountLink:hover { background-color: #DB4341; }
+.Red .header .loginPannel .account .accountLink .userName { color: #fff; }
+
+/*footer*/
+.footer { height: 70px; background: #fff; margin: 15px 0 0 0; }
+
+/**░┤┼ЦЛщ╩й*/
+.uploadButton{ text-align: left; margin: 10px 0 0 0;}
+

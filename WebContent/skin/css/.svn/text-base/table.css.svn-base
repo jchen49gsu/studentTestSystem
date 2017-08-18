@@ -1,0 +1,10 @@
+ .hiddenTDOverFlowContent{
+     table-layout:fixed;
+    }
+.hiddenTDOverFlowContent td{
+    padding-left:5px;
+    padding-right:2px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }

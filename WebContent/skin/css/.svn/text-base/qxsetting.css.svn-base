@@ -1,0 +1,7 @@
+﻿.list { padding: 15px 0; }
+.box1 { padding: 10px; border: 2px solid #c5d1eb; background: #d0ddf8; }
+.box { float: left; margin: 0 40px 0 0; height: 30px; line-height: 30px; }
+.box input { height: auto; }
+.box .label { padding: 0 0 0 7px; }
+.choosedInfor .label { color: #888; }
+.choosedInfor .labelInfor { color: #555; padding:0 20px 0 0; }

@@ -1,0 +1,7 @@
+.box{ margin: 10px 0; line-height: 28px;}
+.box .label{ color:#888; display: block; float: left; width: 60px; text-align: right;}
+.box .prompt{ color: #d00;}
+.informationAreaContent{ margin: 20px 0 0 20px;}
+.box input{ width:200px;}
+.box select{ width: 120px; background: #fff;}
+.box textarea{ width: 90%;height:200px; border:1px solid #ddd; padding: 10px;}

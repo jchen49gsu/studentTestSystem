@@ -1,0 +1,31 @@
+.selectArea{border: 3px solid #e2e2e2; padding: 10px;}
+.selectArea .title{ border-bottom:1px solid #dcdcdc; height: 30px; padding: 0 0 0 10px; font-size: 14px; line-height: 26px;}
+.box1 { padding: 0 0 10px;}
+.box { display: inline-block; margin: 0 40px 0 0; height: 30px; line-height: 30px; }
+.selectArea .box input { height: auto; }
+.box .label { padding: 0 0 0 7px; }
+.checkboxList .box1{ padding: 0; }
+.box.regulation{ position:relative;}
+.serchButton{ margin: 10px 0 0 0;}
+.icn-12.icn-dropArrow{ background: url(../images/dropArrow.png) no-repeat; z-index: 99; position: absolute; right: 10px; top: 13px;}
+.cardTitle{ height: 30px; line-height: 30px; margin: 10px 0 0 0;}
+.cardTitle span{ color: #888; font-family: Arial;}
+.cardContent{ border: 1px solid #dcdcdc;}
+.cardContent input{ border: 0 none; }
+.cardContent .box,.cardContent .box1{ padding: 0;}
+.cardContent .label{ color: #888; width: 90px; height: 30px; line-height: 30px; border-right:1px solid #dcdcdc; display: inline-block;}
+.cardContent .box{ border: 1px solid #dcdcdc; border-top:0 none; border-left: 0 none; margin: 0; width: 33%;}
+.cardContent .box.last{ border-right: 0 none;}
+.cardContent .box1.last .box{ border-bottom:0 none; }
+.cardContent .box input{ width: 60%;}
+table input{ border: 0 none;}
+table thead td{ color: #888; background: #f7f7f7; height: 26px; border: 1px solid #dcdcdc; border-top: 0 none; border-left: 0 none; padding: 0 0 0 10px;}
+table tbody td{ background: #fff;color: #888;  border: 1px solid #dcdcdc; border-top: 0 none; border-left: 0 none; padding: 5px 10px;}
+table input{ width: 100%; padding: 0;}
+table td.hasIcn .icn{ float: left;}
+table td.hasIcn span{ display: inline-block; float: right;}
+.icn-add{ background: url(../images/add.png) center 2px no-repeat;}
+.btn{ float: right; line-height: 20px;}
+.submitButton{ margin: 20px 0 0 0;}
+.btn input{ margin: 0 5px 0 0; border-radius: 3px; width: 50px; height: 24px; border:0 none;}
+table td.firstTd{ width: 10%; border-left: 1px solid #dcdcdc;}

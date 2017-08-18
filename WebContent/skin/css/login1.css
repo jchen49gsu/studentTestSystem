@@ -1,0 +1,36 @@
+body{ font-family: 'Microsoft YaHei'; font-size: 12px;}
+body,p,input{ margin: 0; padding: 0;}
+img,input{ outline: 0 none;}
+.icn-20{ display: inline-block; width: 20px; height: 20px; }
+.icnUser{ background: url(../images/usericn.png) center center no-repeat; position: absolute; top:10px; left: 10px;}
+.icnpwd{ background: url(../images/userkey.png) center center no-repeat;position: absolute; top:10px; left: 10px;}
+.header{ height: 100px; background: #fff;}
+.main{ width: 1200px; margin: 0 auto;}
+.logo{ margin: 15px 0 0 0;}
+.container{ height: 450px; background: url(../images/containerbg.png) repeat-x;}
+.container .main{background: url(../images/cloud.png) 0 bottom no-repeat; height: 450px; position: relative;}
+.moveCloud{ background: url(../images/moveCloud.png)left bottom no-repeat; height: 450px;}
+.airCraft{ background: url(../images/airCraft.png) no-repeat; position: absolute; left: 0; bottom: 0; height: 298px; width: 459px;}
+.loginBox{ width: 350px;background: #fff; position: absolute; top: 100px; right: 50px; z-index: 5; box-shadow: 0 0 3px rgba(0,0,0,.5);}
+.loginContent{ padding: 20px;}
+.loginBox .title{ font-size: 18px; color: #454444;}
+.loginBox .title span{ font-size: 12px;color: #999; padding: 0 0 0 5px;}
+.loginBox .icn{ z-index: 10;}
+.loginBox .inputArea{ margin: 40px 0 0 0;}
+.loginBox .inputArea .box{ position: relative;}
+.loginBox .inputArea .box.user{ margin: 0 0 20px 0;}
+.loginBox .inputArea .box input{ padding:0 5px 0 35px; width: 268px; color: #ccc; line-height: 40px; font-size: 12px; border: 1px solid #e4e4e4; height: 40px;}
+.loginBox .errorAlert{ padding: 0 0 0 10px; height: 28px; border: 1px solid #eca0a9; background: #fae5e8; color: #f00; line-height: 28px;}
+.loginBox .inputArea .box .error{ border: 1px solid #eca0a9; }
+.loginBox .errorContent{margin: -1px 0 0 0; height: 30px;}
+.loginButton{ text-align: center; margin: 40px 0 30px 0;}
+.loginButton .login{ height: 40px; width: 310px; background: #4e7fe1; color: #fff; font-size: 14px; padding: 0 0 0 10px; font-weight: 700; border: 1px solid #4672ca; cursor: pointer;;}
+.loginButton .login:hover{ background: #4672ca; border: 1px solid #3e66b5;}
+.loginBoxShadow .main{ background: url(../images/loginBoxShadow.png) 1150px bottom no-repeat; height: 100px;}
+
+
+.loginBox .btm{ height: 60px; background: #4e7fe1; padding: 20px;}
+.loginBox .btm p{ color: #fff; text-align: right;}
+
+.footer{ height: 50px; padding: 50px 0 0 0; }
+.footer .main{ color: #999; text-align: center;}
